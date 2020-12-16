@@ -559,15 +559,24 @@ li.address-list-item.first> a {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.75;
-    text-align: center;
+    line-height: 26px;
+    text-align:center;
     letter-spacing: 0.03em;
     border: 0;
-    border-radius: 3px;
+    min-width: 101px;
+    min-height: 26px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 22px;
+    padding-right: 22px;
     color: #212121;
-    padding: 0px 22px;
+
+    border-radius: 4px;
+    background: #F5F4FA;
+    width: 145px;
+    height: 38px;
     cursor: pointer;
-    height: 28px;
+    
 }
 .section-list-btn:hover,
 .section-list-btn:focus,
