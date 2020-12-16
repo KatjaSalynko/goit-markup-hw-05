@@ -13,13 +13,20 @@
 </head>
 
 <body>
+    <button data-modal-open>Заказать услугу</button>
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+        <p></p>
+        <button data-modal-close>Закрыть</button>
+     </div>
+    </div>
 <header class="header">
     <div class="container">
         <nav class="site-nav">
             <a class="logo link" href="/" aria-label="логотип сайта" lang="en"><span
                     class="logo-blue-color">Web</span><span class="logo-black-color">Studio</span></a>
             <ul class="nav-list list">
-                <li class="nav-list-item">
+                <li class="nav-list-item current">
                     <a class="nav-list-link link" href="index.html">Студия</a></li>
                 <li class="nav-list-item">
                     <a class="nav-list-link link" href="portfolio.html">Портфолио</a></li>
@@ -390,5 +397,18 @@
         </div>
     </div>
 </footer>
+<!-- Backdrop -->
+<button data-modal-open>Заказать услугу</button>
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+        <p></p>
+        <img class="modal-close-button" src="./Images/vector.svg">
+        <button data-modal-close>Закрыть</button>
+        </div>
+    </div>
+
+
+
+<script src="./js/modal.js"></script>
 </body>
 </html>
