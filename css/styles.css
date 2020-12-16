@@ -444,6 +444,7 @@ li.address-list-item.first> a {
 
 .footer .footer-container {
     margin-left: 20px;
+    align-self: baseline;
 }
 
 .footer h4 {
