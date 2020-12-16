@@ -13,13 +13,7 @@
 </head>
 
 <body>
-    <button data-modal-open>Заказать услугу</button>
-    <div class="backdrop is-hidden" data-modal>
-        <div class="modal">
-        <p></p>
-        <button data-modal-close>Закрыть</button>
-     </div>
-    </div>
+
 <header class="header">
     <div class="container">
         <nav class="site-nav">
@@ -57,7 +51,7 @@
     <section class="hero">
         <div class="container">
             <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-            <button class="hero-title-btn" type="button">Заказать услугу</button>
+            <button class="hero-title-btn" type="button" data-modal-open>Заказать услугу</button>
         </div>
     </section>
     <!-- Job description-->
@@ -116,13 +110,19 @@
             <ul class="responsibilities-title-list list">
                 <li class="responsibilities-title-item">
                     <img class="responsibilities-image" src="./Images/responsibilities/responsibility-img-1.jpg"
-                         alt="Специалист пишет код" width="370" height="297"></li>
+                         alt="Специалист пишет код" width="370" height="297"/>
+                        <p class="responsibilities-image-overlay">Десктопные приложения</p>
+                        </li>
                 <li class="responsibilities-title-item">
                     <img class="responsibilities-image" src="./Images/responsibilities/responsibility-img-2.jpg"
-                         alt="Специалист создает дизайн" width="370" height="297"></li>
+                         alt="Специалист создает дизайн" width="370" height="297"/>
+                         <p class="responsibilities-image-overlay">Мобильные приложения</p>
+                        </li>
                 <li class="responsibilities-title-item">
                     <img class="responsibilities-image" src="./Images/responsibilities/responsibility-img-3.jpg"
-                         alt="Специалист создает графику" width="370" height="297"></li>
+                         alt="Специалист создает графику" width="370" height="297"/>
+                         <p class="responsibilities-image-overlay">Дизайнерские решения</p>
+                        </li>
             </ul>
         </div>
     </section>
@@ -397,16 +397,15 @@
         </div>
     </div>
 </footer>
+
 <!-- Backdrop -->
-<button data-modal-open>Заказать услугу</button>
+
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
         <p></p>
-        <img class="modal-close-button" src="./Images/vector.svg">
-        <button data-modal-close>Закрыть</button>
+        <img class="modal-close-button" src="./Images/vector.svg" data-modal-close />
         </div>
     </div>
-
 
 
 <script src="./js/modal.js"></script>
