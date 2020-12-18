@@ -149,6 +149,10 @@ li.address-list-item.first> a {
     line-height: 1.143;
     letter-spacing: 0.02em;
     color: #212121;
+
+    transition-property: var(--accent-color);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-list-item.current .nav-list-link {
@@ -168,12 +172,20 @@ li.address-list-item.first> a {
     line-height: 1.143;
     letter-spacing: 0.02em;
     color: #757575;
+
+    transition-property: #757575;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
 .header-mail svg,
 .header-tel svg {
     fill: #757575;
+    
+    transition-property: #757575;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-mail:hover,
@@ -242,6 +254,9 @@ li.address-list-item.first> a {
     cursor: pointer;
 
     color: #FFFFFF;
+    transition-property: var(--accent-color);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-title-btn:hover,
@@ -419,8 +434,12 @@ li.address-list-item.first> a {
     height: 44px;
     background: white;
     border-radius: 50%;
-}
 
+    transition-property: var(--accent-color);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
+}
+    
 .social-list_link:hover .social-list_icon,
 .social-list_link:focus .social-list_icon{
     fill: white;
@@ -696,6 +715,7 @@ li.address-list-item.first> a {
     display: flex;
     justify-content: space-between;
     padding-bottom: 90px;
+
 }
 .clients-list a {
     display: block;
@@ -705,6 +725,7 @@ li.address-list-item.first> a {
     box-sizing: border-box;
     border: 1px solid #AFB1B8;
     border-radius: 3px;
+
 }
 .clients-list a:hover,
 .clients-list a:focus {
@@ -716,6 +737,9 @@ li.address-list-item.first> a {
     height: 50px;
     margin-top: 20px;
     fill: #AFB1B8;
+    transition-property: var(--accent-color);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
 }
 .clients-list a:hover svg,
 .clients-list a:focus svg{
