@@ -424,6 +424,10 @@ li.address-list-item.first> a {
     width: 20px;
     height: 20px;
     fill: #AFB1B8;
+
+    transition-property: #AFB1B8;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-list_link{
@@ -603,7 +607,10 @@ li.address-list-item.first> a {
     width: 145px;
     height: 38px;
     cursor: pointer;
-    
+
+    transition-property: var(--accent-color);
+    transition-duration: 500ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);   
 }
 .section-list-btn:hover,
 .section-list-btn:focus,
@@ -726,6 +733,10 @@ li.address-list-item.first> a {
     border: 1px solid #AFB1B8;
     border-radius: 3px;
 
+    transition-property: var(--accent-color);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
+
 }
 .clients-list a:hover,
 .clients-list a:focus {
@@ -737,7 +748,7 @@ li.address-list-item.first> a {
     height: 50px;
     margin-top: 20px;
     fill: #AFB1B8;
-    transition-property: var(--accent-color);
+    transition-property: #2196F3;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
 }
@@ -762,6 +773,10 @@ li.address-list-item.first> a {
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
     text-align: center;
+
+    transition-property: var(--accent-color);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);    
 }
 .join-list-item:not(:last-child){
     padding-right: 10px;
@@ -776,5 +791,9 @@ li.address-list-item.first> a {
     height: 20px;
     fill: white;
     margin: 12px;
+
+    transition-property: white;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* =========== END CLIENTS ============== */
